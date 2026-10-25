@@ -1,0 +1,294 @@
+SAMPLE OUTPUT - Linked List Management System (C++)
+(Menu options are shown only the first time to keep this file short.
+ The value typed by the user appears right after each prompt.)
+==========================================================================
+
+==================================================
+ LINKED LIST MANAGEMENT SYSTEM
+==================================================
+1. Singly Linked List
+2. Doubly Linked List
+3. Compare Singly vs Doubly Linked List
+4. Exit
+Enter your choice: 1
+
+********** Operation on Singly Linked List **********
+ 1. Insert at Beginning
+ 2. Insert at End
+ 3. Insert at Position
+ 4. Insert After a Node
+ 5. Insert Before a Node
+ 6. Delete from Beginning
+ 7. Delete from End
+ 8. Delete from Position
+ 9. Delete by Value
+10. Search
+11. Update
+12. Display
+13. Count Nodes
+14. Find Maximum
+15. Find Minimum
+16. Find Middle Element
+17. Reverse
+18. Sort
+19. Remove Duplicates
+20. Exit
+Enter the choice:- 2
+Enter value: 40
+40 inserted at end.
+
+Enter the choice:- 2
+Enter value: 10
+10 inserted at end.
+
+Enter the choice:- 2
+Enter value: 30
+30 inserted at end.
+
+Enter the choice:- 2
+Enter value: 20
+20 inserted at end.
+
+Enter the choice:- 2
+Enter value: 50
+50 inserted at end.
+
+Enter the choice:- 12
+40 -> 10 -> 30 -> 20 -> 50 -> NULL
+
+Enter the choice:- 18
+List sorted in ascending order.
+
+Enter the choice:- 12
+10 -> 20 -> 30 -> 40 -> 50 -> NULL
+
+Enter the choice:- 17
+List reversed.
+
+Enter the choice:- 12
+50 -> 40 -> 30 -> 20 -> 10 -> NULL
+
+Enter the choice:- 13
+Total nodes: 5
+
+Enter the choice:- 14
+Maximum value: 50
+
+Enter the choice:- 15
+Minimum value: 10
+
+Enter the choice:- 16
+Middle element: 30
+
+Enter the choice:- 10
+Enter value to search: 30
+30 found at position 3.
+
+Enter the choice:- 10
+Enter value to search: 99
+99 not found in the list.
+
+Enter the choice:- 3
+Enter value: 25
+Enter position (1-based): 3
+25 inserted at position 3.
+
+Enter the choice:- 3
+Enter value: 7
+Enter position (1-based): 99
+Invalid position! Valid range is 1 to 7.
+
+Enter the choice:- 12
+50 -> 40 -> 25 -> 30 -> 20 -> 10 -> NULL
+
+Enter the choice:- 9
+Enter value to delete: 999
+Value 999 not found.
+
+Enter the choice:- 9
+Enter value to delete: 25
+25 deleted.
+
+Enter the choice:- 11
+Enter old value: 10
+Enter new value: 15
+10 updated to 15.
+
+Enter the choice:- 4
+Insert AFTER which value? 30
+Enter new value: 35
+35 inserted after 30.
+
+Enter the choice:- 5
+Insert BEFORE which value? 50
+Enter new value: 45
+45 inserted before 50.
+
+Enter the choice:- 2
+Enter value: 30
+30 inserted at end.
+
+Enter the choice:- 19
+1 duplicate node(s) removed.
+
+Enter the choice:- 12
+45 -> 50 -> 40 -> 30 -> 35 -> 20 -> 15 -> NULL
+
+Enter the choice:- 19
+0 duplicate node(s) removed.
+
+Enter the choice:- 12
+45 -> 50 -> 40 -> 30 -> 35 -> 20 -> 15 -> NULL
+
+Enter the choice:- 7
+15 deleted from end.
+
+Enter the choice:- 12
+45 -> 50 -> 40 -> 30 -> 35 -> 20 -> NULL
+
+Enter the choice:- 6
+45 deleted from beginning.
+
+Enter the choice:- 12
+50 -> 40 -> 30 -> 35 -> 20 -> NULL
+
+Enter the choice:- 20
+Returning to main menu...
+
+Enter your choice: 2
+
+********** Operation on Doubly Linked List **********
+ 1. Insert at Beginning
+ 2. Insert at End
+ 3. Insert at Position
+ 4. Insert After a Node
+ 5. Insert Before a Node
+ 6. Delete from Beginning
+ 7. Delete from End
+ 8. Delete from Position
+ 9. Delete by Value
+10. Search
+11. Update
+12. Display Forward
+13. Display Backward
+14. Count Nodes
+15. Find Maximum
+16. Find Minimum
+17. Find Middle Element
+18. Reverse
+19. Sort
+20. Remove Duplicates
+21. Exit
+Enter the choice:- 2
+Enter value: 40
+40 inserted at end.
+
+Enter the choice:- 2
+Enter value: 10
+10 inserted at end.
+
+Enter the choice:- 2
+Enter value: 30
+30 inserted at end.
+
+Enter the choice:- 2
+Enter value: 20
+20 inserted at end.
+
+Enter the choice:- 2
+Enter value: 10
+10 inserted at end.
+
+Enter the choice:- 12
+NULL <- 40 <-> 10 <-> 30 <-> 20 <-> 10 -> NULL
+
+Enter the choice:- 13
+NULL <- 10 <-> 20 <-> 30 <-> 10 <-> 40 -> NULL
+
+Enter the choice:- 17
+Middle element: 30
+
+Enter the choice:- 12
+NULL <- 40 <-> 10 <-> 30 <-> 20 <-> 10 -> NULL
+
+Enter the choice:- 13
+NULL <- 10 <-> 20 <-> 30 <-> 10 <-> 40 -> NULL
+
+Enter the choice:- 5
+Insert BEFORE which value? 30
+Enter new value: 25
+25 inserted before 30.
+
+Enter the choice:- 4
+Insert AFTER which value? 20
+Enter new value: 22
+22 inserted after 20.
+
+Enter the choice:- 12
+NULL <- 40 <-> 10 <-> 25 <-> 30 <-> 20 <-> 22 <-> 10 -> NULL
+
+Enter the choice:- 13
+NULL <- 10 <-> 22 <-> 20 <-> 30 <-> 25 <-> 10 <-> 40 -> NULL
+
+Enter the choice:- 7
+10 deleted from end.
+
+Enter the choice:- 6
+40 deleted from beginning.
+
+Enter the choice:- 12
+NULL <- 10 <-> 25 <-> 30 <-> 20 <-> 22 -> NULL
+
+Enter the choice:- 13
+NULL <- 22 <-> 20 <-> 30 <-> 25 <-> 10 -> NULL
+
+Enter the choice:- 20
+0 duplicate node(s) removed.
+
+Enter the choice:- 12
+NULL <- 10 <-> 25 <-> 30 <-> 20 <-> 22 -> NULL
+
+Enter the choice:- 13
+NULL <- 22 <-> 20 <-> 30 <-> 25 <-> 10 -> NULL
+
+Enter the choice:- 20
+0 duplicate node(s) removed.
+
+Enter the choice:- 21
+Returning to main menu...
+
+Enter your choice: 3
+
+==================================================
+ SINGLY vs DOUBLY LINKED LIST
+==================================================
+Feature                 Singly            Doubly
+--------------------------------------------------
+Pointers per node       1 (next)          2 (prev, next)
+Memory per node         Less              More
+Traversal direction     Forward only      Forward + Backward
+Insert at beginning     O(1)              O(1)
+Insert at end           O(n) (no tail)    O(1) (with tail)
+Delete from end         O(n)              O(1) (with tail)
+Delete a given node     Needs prev node   Direct (has prev)
+Reverse                 O(n), O(1) space  O(n), O(1) space
+Implementation          Simpler           More pointer updates
+--------------------------------------------------
+Sizes on this machine: SNode = 16 bytes, DNode = 24 bytes
+
+--- Live demo: same data 40, 10, 30, 20, 50 in both lists ---
+
+Singly (can go forward only):
+  40 -> 10 -> 30 -> 20 -> 50 -> NULL
+Doubly forward:
+  NULL <- 40 <-> 10 <-> 30 <-> 20 <-> 50 -> NULL
+Doubly backward:
+  NULL <- 50 <-> 20 <-> 30 <-> 10 <-> 40 -> NULL
+
+After sort + reverse:
+  Singly: 50 -> 40 -> 30 -> 20 -> 10 -> NULL
+  Doubly forward : NULL <- 50 <-> 40 <-> 30 <-> 20 <-> 10 -> NULL
+  Doubly backward: NULL <- 10 <-> 20 <-> 30 <-> 40 <-> 50 -> NULL
+
+Enter your choice: 4
+Thank you! Exiting...
